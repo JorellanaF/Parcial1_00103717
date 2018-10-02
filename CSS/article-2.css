@@ -1,6 +1,6 @@
 .contenedor-article-2 {
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-color: #fff;
     padding: 0.5em;
 }
@@ -27,15 +27,26 @@ div[class^="row-"] img {
 
 .read {
     background-color: orange;
-    border-radius: 10px;
+    border-radius: 7px;
     width: 80%;
     margin: 0 auto;
     padding: 0.5em;
+    text-align: center;
+}
+
+.read:hover {
+    background-color: white;
+    color: orange;
+}
+
+.read:hover a{
+    color: orange;
 }
 
 .read a {
     display: inline;
     color: white;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
 }
 

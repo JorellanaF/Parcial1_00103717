@@ -1,0 +1,23 @@
+footer {
+    background-color: black;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div[class^="footer-row-"] {
+    color: #fef6f4;
+}
+
+div[class^="footer-row-"] ul li  {
+    list-style: none;
+}
+
+.licencia p {
+    color: rgba(109, 104, 104, 0.801);
+    text-align: end;
+}
+
